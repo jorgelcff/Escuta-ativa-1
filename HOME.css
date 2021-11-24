@@ -1,0 +1,29 @@
+.consulta {
+    background-color: #93C57F;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 5%;
+    height: 30px;
+  }
+.artigo{
+  background-color: #93C57F;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.medidor-dia{
+  background-color: #93C57F;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  
+}
+table{
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
