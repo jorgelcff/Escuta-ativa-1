@@ -27,6 +27,8 @@ label{
 }
 .foto{
     width: 50px;
+    border-radius: 50%;
+    border-: 1px;
 }  
 .menu{
     width: 40px;
@@ -46,4 +48,65 @@ nav{
     position: absolute;
     transition: all .5s;
 }
+.search-container{
+    width: 490px;
+    display: block;
+    margin: 0 auto;
+  }
+
+#divBusca{
+    padding-left: 10px;
+    background-color:#93C57F;
+    border:solid 1px;
+    border-radius:10px;
+    width:300px;
+    margin: 0 auto;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+  }
   
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding: 5px;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+}  
+
+.lupa{
+    padding: 10px;
+    padding-right: 5px;
+    width: 25px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cardconsulta {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    border-left: 3px solid #3bb54a;    
+  }
+.cardconsulta:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+   
+.cardconsulta p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
