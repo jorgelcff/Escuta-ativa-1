@@ -1,3 +1,50 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 20px 5px;
+  color: white;
+}
+a:hover{
+  background-color: rgb(176,224,230);
+  color: black;
+}
+label{
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+
+}
+ul{
+  list-style: none;
+  top: 70px;
+  position: absolute;
+  width: 100%;
+}
+
+img{
+  width: 40px;
+}
+
+input[type='checkbox']{
+  display: none;
+}
+input[type='checkbox']:checked ~ nav {
+  transform: translateX(350px);
+}
+nav{
+  background-color: rgba(16,16,16,.5);
+  width: 300px;
+  left: -350px;
+  height: 100%;
+  position: absolute;
+  transition: all .5s;
+}
+
 .consulta {
     background-color: #93C57F;
     align-items: center;
