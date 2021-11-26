@@ -1,3 +1,57 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 20px 5px;
+  color: white;
+}
+a:hover{
+  background-color: rgb(176,224,230);
+  color: black;
+}
+label{
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+  position: absolute;
+  background-color:#93C57F ;
+  width: 360px;
+  display: flex;
+}
+.listamenul{
+  list-style: none;
+  top: 70px;
+  position: absolute;
+  width: 100%;
+}
+
+.menu{
+  width: 40px;
+}
+
+input[type='checkbox']{
+  display: none;
+}
+input[type='checkbox']:checked ~ nav {
+  transform: translateX(350px);
+}
+nav{
+  background-color: rgba(16,16,16,.5);
+  width: 300px;
+  left: -350px;
+  height: 100%;
+  position: absolute;
+  transition: all .5s;
+}
+.conteudo{
+  width: 340px;
+  position: relative;
+  top: 200px;
+}
 .consulta {
     background-color: #93C57F;
     align-items: center;
@@ -6,6 +60,10 @@
     text-align: center;
     border-radius: 5%;
     height: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    width: 340px;
+
   }
 .artigo{
   background-color: #93C57F;
@@ -13,6 +71,9 @@
   justify-content: center;
   align-content: center;
   text-align: center;
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 340px;
 }
 .medidor-dia{
   background-color: #93C57F;
@@ -20,7 +81,14 @@
   justify-content: center;
   align-content: center;
   text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 340px;
   
+}
+.linkcomum{
+  color: blue;
+  text-decoration: underline;
 }
 table{
   width: auto;
