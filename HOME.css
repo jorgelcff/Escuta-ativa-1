@@ -15,15 +15,13 @@ a:hover{
 }
 label{
   padding: 15px;
-  position: absolute;
-  z-index: 1;
+  position: relative!important;
   background-color:#93C57F ;
   width: 360px;
   display: flex;
 }
 .listamenul{
   list-style: none;
-  top: 70px;
   position: absolute;
   width: 100%;
 }
@@ -39,17 +37,18 @@ input[type='checkbox']:checked ~ nav {
   transform: translateX(350px);
 }
 nav{
-  background-color: rgba(16,16,16,.5);
+  background-color: #93C57F;
   width: 300px;
   left: -350px;
   height: 100%;
   position: absolute;
   transition: all .5s;
+  z-index: 1;
 }
 .conteudo{
   width: 340px;
   position: relative;
-  top: 200px;
+  top: 5px;
 }
 .consulta {
     background-color: #93C57F;
